@@ -155,6 +155,7 @@ body, input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 			color: #f2849e !important;
+			/*filter: invert(74%) sepia(39%) saturate(1743%) hue-rotate(297deg) brightness(100%) contrast(90%);*/
 		}
 
 	strong, b {
@@ -2836,7 +2837,7 @@ body, input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0;
+		padding: 0em 0 0.1em 0;
 	}
 
 		#header .logo {
@@ -3001,6 +3002,11 @@ body, input, select, textarea {
 		visibility: hidden;
 		z-index: 10002;
 	}
+
+		#menu .logo:hover {
+			border-bottom-color: transparent;
+			filter: invert(74%) sepia(39%) saturate(1743%) hue-rotate(297deg) brightness(100%) contrast(90%);
+		}
 
 		#menu > .inner {
 			-moz-transition: opacity 0.45s ease;
