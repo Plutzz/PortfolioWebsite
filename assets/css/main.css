@@ -3167,6 +3167,46 @@ body, input, select, textarea {
 		padding: 0em 0 6em 0 ;
 	}
 
+		#main .skills {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-start;
+			width: 100%;
+			padding: 10px;
+		}
+
+		#main .programming {
+			flex-basis: 500px;
+		}
+
+		#main .technologies {
+			flex-basis: 500px;
+		}
+
+	#main .programmingIcons {
+		display: flex;
+		gap: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	#main .technologyIcons {
+		display: flex;
+		gap: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#main .programmingIcons img{
+		width: auto;
+		height: 100px;
+	}
+
+		#main .technologyIcons img {
+			width: auto;
+			height: 100px;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#main {
