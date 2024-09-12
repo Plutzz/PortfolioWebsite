@@ -151,7 +151,7 @@ body, input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #ffffff;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
@@ -1889,9 +1889,11 @@ body, input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		display: inline-block;
 	}
 
 		ul li {
+			text-align: left;
 			padding-left: 0.5em;
 		}
 
@@ -2362,13 +2364,14 @@ body, input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
 			margin: 0 0 3em 0;
 			width: 100%;
+			justify-content: center;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 75%;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3169,6 +3172,9 @@ body, input, select, textarea {
 	#main {
 		padding: 0em 0 6em 0 ;
 	}
+		#main .title 
+		{
+		}
 
 		#main .skills {
 			display: flex;
@@ -3380,6 +3386,12 @@ body, input, select, textarea {
 		max-width: 68em;
 		margin: 0 auto;
 		padding: 0 2.5em;
+	}
+	#wrapper > * > .inner2 {
+		width: 100%;
+		max-width: 68em;
+		margin: 0 auto;
+		padding: 2em 2.5em;
 	}
 
 		@media screen and (max-width: 736px) {
