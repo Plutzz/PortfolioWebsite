@@ -3174,6 +3174,7 @@ body, input, select, textarea {
 	}
 		#main .title 
 		{
+			font-size: 50px;
 		}
 
 		#main .skills {
